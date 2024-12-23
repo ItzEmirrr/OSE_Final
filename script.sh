@@ -1,7 +1,7 @@
 #!/bin/bash 
  
 # Logging
-LOG_FILE="/var/log/deploy_django.log" 
+LOG_FILE="/OSEFINAL/log/deploy_django.log" 
 echo "Start of deployment: $(date)" >> $LOG_FILE 
  
 # Check of superuser rights
