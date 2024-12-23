@@ -122,7 +122,7 @@ free_port() {
 } 
  
 # Freeing the port 
-PORT=8080 
+PORT=5555 
 free_port $PORT 
  
 # Automatically launch Gunicorn 
